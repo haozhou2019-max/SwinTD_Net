@@ -40,4 +40,19 @@ For example, we test the Swinir2 set:
 
 Python swintest.py --MODEL(model name)
 
+If you find our work helpful in your research, please consider citing it. We appreciate your support！😊
+@article{ZHOU2023110410,
+title = {Physical-priors-guided DehazeFormer},
+journal = {Knowledge-Based Systems},
+volume = {266},
+pages = {110410},
+year = {2023},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2023.110410},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705123001600},
+author = {Hao Zhou and Zekai Chen and Yun Liu and Yongpan Sheng and Wenqi Ren and Hailing Xiong},
+keywords = {Image dehazing, Dark channel prior, Swin Transformer, Deep learning, Self-supervised learning},
+abstract = {Single-image dehazing is a challenging task in several machine-vision applications. Methods based on physical models and prior knowledge fail under certain conditions, resulting in defects such as color distortion. Transformer-based methods have a strong representation ability owing to their self-attention mechanism that can effectively obtain global information. However, this approach is computationally expensive, and its weak inductive bias capability increases the risk of overfitting on small-sample datasets. To address these problems, in this study, we propose a novel DehazeFormer guided by physical priors, named SwinTD-Net, which is trained according to supervised and self-supervised learning, and combines the advantages of physical priors and transformers. The proposed DehazeFormer learns features guided by physical priors, which improves the generalization ability of the network and enables it to achieve good restoration effects on both synthetic and real-world hazy images. In addition, we propose a more appropriate prior input to better use physical priors, and we design a multi-scale dark-light enhancement algorithm for image restoration post-processing, which can improve the visual perception quality for human observers while performing some local enhancements. Extensive experiments illustrate that the proposed method outperforms state-of-the-art methods. The code and pre-trained models are available to academics so that they can reproduce our results and test them (https://github.com/hocking-cloud/SwinTD_Net).}
+}
+
 If you have questions, you can contact us (chenzekai451236@163.com) and we will reply when we are free.
