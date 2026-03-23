@@ -40,4 +40,29 @@ For example, we test the Swinir2 set:
 
 Python swintest.py --MODEL(model name)
 
+If you find our work helpful in your research, please consider citing it. We appreciate your support！😊
+
+@article{SwinTD-Net,
+
+title = {Physical-priors-guided DehazeFormer},
+
+journal = {Knowledge-Based Systems},
+
+volume = {266},
+
+pages = {110410},
+
+year = {2023},
+
+issn = {0950-7051},
+
+doi = {https://doi.org/10.1016/j.knosys.2023.110410},
+
+url = {https://www.sciencedirect.com/science/article/pii/S0950705123001600},
+
+author = {Hao Zhou and Zekai Chen and Yun Liu and Yongpan Sheng and Wenqi Ren and Hailing Xiong},
+
+}
+
+
 If you have questions, you can contact us (chenzekai451236@163.com) and we will reply when we are free.
